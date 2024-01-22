@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP-Gen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="alert">
+        <h4 class="notif">Alert</h4>
+    </div>
+    <div class="cont">
+        <h2>OTP Generator</h2>
+        <button class="otp-btn">Generate OTP</button>
+        <div class="otp">
+            <span class="otp-inp">OTP appear here</span>
+        </div>
+        <h4>Enter OTP</h4>
+        <div class="enter">
+            <input id="inputlimit" oninput="limitinput(this,6)" type="number" placeholder="OTP" maxlength="6">
+        </div>
+        <button class="otp-btn" onclick="checkOTP()">Check OTP</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>`
